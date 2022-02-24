@@ -161,26 +161,10 @@ object({
 |[[output_security_lists]] <<output_security_lists,security_lists>> |All security lists defined for the Virtual Cloud Network (VCN)
 |===
 
-=== Prerequisites
-Code is written in HashiCorp Configuration Language (HCL), includes data stored in JSON format and cloud init scripts. The OCI Resource Manager executes Terraform and deploys Service Assets into a tenancy. Engineers should familerize themselfes with the following topics:
-
-* link:https://www.oracle.com/cloud/free/[Oracle Cloud Infrastructure (OCI) Account] 
-* link:https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm[Oracle Resource Manager]
-* link:https://www.terraform.io[HashiCorp Terraform]
-* link:https://registry.terraform.io/providers/hashicorp/oci/latest[Terraform Service Provider for OCI]
-* link:https://registry.terraform.io/providers/hashicorp/time/latest[Terraform Time Service Provider]
-* link:https://cloudinit.readthedocs.io/en/latest/[Cloud Init]
-
-=== Notes/Issues
-* Destroying compartments and tag namespaces can take some time and will fail in some cases. Repeat the destroy command will continue the process.
-
-=== URLs
-This repository is intended to be used with the Oracle Resource Manager. Using the "Deploy to Oracle Cloud" button requires users to link:https://www.oracle.com/cloud/sign-in.html[sign in].
-
-=== Contributing
+== Contributing
 This project is a community project the code is open source.  Please submit your contributions by forking this repository and submitting a pull request!  Oracle appreciates any contributions that are made by the open source community.
 
-=== License
+== License
 Copyright (c) 2021 Oracle and/or its affiliates.
 
 Licensed under the Universal Permissive License (UPL), Version 1.0.
