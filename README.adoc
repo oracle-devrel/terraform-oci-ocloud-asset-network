@@ -1,6 +1,6 @@
 == Requirements
 
-No requirements.
+This is the network module for the link:https://github.com/oracle-devrel/terraform-oci-ocloud-configuration/[ocloud framework]. The code provisions the network topology for a service resident. 
 
 == Providers
 
@@ -14,7 +14,8 @@ No requirements.
 
 == Modules
 
-No modules.
+* link::https://github.com/oracle-devrel/terraform-oci-ocloud-configuration/[Default Configuration]
+* link::https://github.com/oracle-devrel/terraform-oci-ocloud-configuration/[Service Resident]
 
 == Resources
 
