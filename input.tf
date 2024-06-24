@@ -56,9 +56,10 @@ variable "network" {
     stage        = number,
     cidr         = string,
     gateways     = any,
-    route_tables = map(any),
     subnets      = map(any),
-    security_lists = any
+    route_table_input = list(any),
+    security_groups   = map(any)
+    security_lists    = any
   })
   description = "Network Configuration"
 }
